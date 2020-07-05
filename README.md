@@ -8,14 +8,16 @@ requirments.txt: Includes the needed libraries for the project.
 run_docker.sh: To start the app on a container.
 run_kubernetes.sh: To start the app on Kubernetes.
 upload_docker.sh: Uploads the image to a docker hub repo.
- 
-hadolint-Linux-x86_64  Makefile  make_prediction.sh  model_data  output_txt_files  README.md  requirements.txt  run_docker.sh  run_kubernetes.sh  upload_docker.sh
 
 ### Running `app.py`
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+python3 -m venv ~/.project
+source ~/.devops/bin/project
+
+1. Standalone:  python3 app.py
+2. Run in Docker:  bash run_docker.sh
+3. Run in Kubernetes:  bash kubernetes.s
+
 
 ### Running `app.py`on Docker
 #Builds the image then run it
