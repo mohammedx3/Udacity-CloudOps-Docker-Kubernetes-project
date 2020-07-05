@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<mohammedx3>](https://circleci.com/gh/mohammedx3/project.svg?style=svg)](https://app.circleci.com/pipelines/github/mohammedx3/project)
 
 ## Project Overview
 
