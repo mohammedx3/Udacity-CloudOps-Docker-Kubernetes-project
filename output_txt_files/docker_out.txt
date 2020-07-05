@@ -1,1 +1,28 @@
-<paste log output from Docker prediction, here>
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+<none>              <none>              9ee10130cc51        15 seconds ago      937MB
+<none>              <none>              6edc26c2e4a7        2 minutes ago       937MB
+api                 latest              9b566359a060        7 minutes ago       1.26GB
+<none>              <none>              6e874bb744e6        9 minutes ago       1.26GB
+lambci/lambda       python3.8           99b5699ce708        3 weeks ago         517MB
+lambci/lambda       nodejs12.x          57f9cdd55d53        3 weeks ago         380MB
+lambci/lambda       nodejs10.x          06e76b2ccf57        3 weeks ago         377MB
+lambci/lambda       python3.7           b70f34958265        3 weeks ago         939MB
+lambci/lambda       python3.6           b187d4852a04        3 weeks ago         883MB
+lambci/lambda       python2.7           496dc597194f        3 weeks ago         753MB
+lambci/lambda       nodejs8.10          35a9b1f76c1c        3 weeks ago         811MB
+python              3.7.3-stretch       34a518642c76        13 months ago       929MB
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 216-939-470
+[2020-07-05 16:05:45,015] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-07-05 16:05:45,030] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-07-05 16:05:45,040] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-07-05 16:05:45,044] INFO in app: Predict: 
+[20.35373177134412]
+172.17.0.1 - - [05/Jul/2020 16:05:45] "POST /predict HTTP/1.1" 200 -
