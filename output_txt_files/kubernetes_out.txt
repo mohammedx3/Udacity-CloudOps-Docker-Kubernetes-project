@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+.project) ec2-user:~/project (master) $ bash run_kubernetes.sh 
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "api" already exists
+NAME   READY   STATUS    RESTARTS   AGE
+api    1/1     Running   0          0s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
