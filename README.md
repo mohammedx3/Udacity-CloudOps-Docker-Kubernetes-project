@@ -23,6 +23,7 @@ source ~/.devops/bin/project
 #Builds the image then run it
 
 docker build --tag=api .
+
 docker run -p 8000:80 api
 
 ### Running `app.py`on Kubernetes
