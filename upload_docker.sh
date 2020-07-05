@@ -10,6 +10,7 @@ dockerpath=https://hub.docker.com/repository/docker/mohammedx3/project/
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker tag python:3.7.3-stretch mohammedx3/project
 
 # Step 3:
 # Push image to a docker repository
